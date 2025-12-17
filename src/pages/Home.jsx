@@ -14,7 +14,7 @@ const Home = () => {
             className="w-full h-full bg-cover bg-center animate-scale-in"
             style={{
               animationDuration: '20s',
-              backgroundImage: `url(${import.meta.env.BASE_URL}images/cover1.png?auto=compress&cs=tinysrgb&w=1920)`
+              backgroundImage: `url(/Silambavelankadu/images/cover1.png?auto=compress&cs=tinysrgb&w=1920)`
             }}
           />
         </div>
@@ -128,7 +128,7 @@ const Home = () => {
                 {/* Placeholder for video thumbnail or looping video */}
                 <div
                   className="w-full h-full bg-cover bg-center opacity-60 group-hover:opacity-40 transition-opacity duration-500"
-                  style={{ backgroundImage: `url(${import.meta.env.BASE_URL}images/Temples/Murugan%20Temple.png)` }}
+                  style={{ backgroundImage: `url(/Silambavelankadu/images/Temples/Murugan%20Temple.png)` }}
                 />
               </div>
               <div className="relative z-20 h-full p-8 flex flex-col justify-end text-white">

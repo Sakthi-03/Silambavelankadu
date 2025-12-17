@@ -6,9 +6,9 @@ const Videos = () => {
 
   const videos = [
 
-    { id: 1, url: `${import.meta.env.BASE_URL}videos/coverup.mp4`, title: "கிராம இயற்கை" },
-    { id: 2, url: `${import.meta.env.BASE_URL}videos/temple.mp4`, title: "கோவில்" },
-    { id: 3, url: `${import.meta.env.BASE_URL}videos/thiruvizha.mp4`, title: "காளியம்மன் திருவிழா 2024" },
+    { id: 1, url: "/Silambavelankadu/videos/coverup.mp4", title: "கிராம இயற்கை" },
+    { id: 2, url: "/Silambavelankadu/videos/temple.mp4", title: "கோவில்" },
+    { id: 3, url: "/Silambavelankadu/videos/thiruvizha.mp4", title: "காளியம்மன் திருவிழா 2024" },
   ];
 
   return (
