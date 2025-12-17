@@ -85,7 +85,7 @@ const About = () => {
                 {/* Temple Image */}
                 <div className="relative">
                   <img
-                    src="/Silambavelankadu/images/Temples/MuruganTemple.png"
+                    src="/Silambavelankadu/images/Temples/Murugan Temple.png"
                     alt="கோவில்"
                     className="rounded-2xl shadow-lg w-full object-cover"
                   />
