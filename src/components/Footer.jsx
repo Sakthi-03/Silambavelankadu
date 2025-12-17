@@ -13,7 +13,7 @@ const Footer = () => {
               {/* <div className="w-10 h-10 bg-gradient-to-br from-emerald-500 to-green-600 rounded-full flex items-center justify-center">
                 <MapPin className="w-6 h-6 text-white" />
               </div> */}
-              <div className="w-15 h-15 rounded-full flex items-center justify-center overflow-hidden">
+              <div className="w-16 h-16 rounded-full flex items-center justify-center overflow-hidden">
                 <img src="/Silambavelankadu/images/logo.png" alt="Silambavelangadu Logo" className="w-full h-full object-cover" />
               </div>
               <div>
