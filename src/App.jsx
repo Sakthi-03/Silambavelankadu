@@ -13,10 +13,10 @@ import VideoGallery from './pages/VideoGallery';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Silambavelankadu">
       <div className="min-h-screen">
         <Header />
-        <ScrollToTop /> 
+        <ScrollToTop />
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
