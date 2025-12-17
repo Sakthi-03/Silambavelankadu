@@ -11,8 +11,11 @@ const Home = () => {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/30 z-10" />
           <div
-            className="w-full h-full bg-[url('/images/cover1.png?auto=compress&cs=tinysrgb&w=1920')] bg-cover bg-center animate-scale-in"
-            style={{ animationDuration: '20s' }}
+            className="w-full h-full bg-cover bg-center animate-scale-in"
+            style={{
+              animationDuration: '20s',
+              backgroundImage: `url(${import.meta.env.BASE_URL}images/cover1.png?auto=compress&cs=tinysrgb&w=1920)`
+            }}
           />
         </div>
 
@@ -123,7 +126,10 @@ const Home = () => {
               <div className="absolute inset-0 bg-black">
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-10" />
                 {/* Placeholder for video thumbnail or looping video */}
-                <div className="w-full h-full bg-[url('/images/Temples/Murugan%20Temple.png')] bg-cover bg-center opacity-60 group-hover:opacity-40 transition-opacity duration-500" />
+                <div
+                  className="w-full h-full bg-cover bg-center opacity-60 group-hover:opacity-40 transition-opacity duration-500"
+                  style={{ backgroundImage: `url(${import.meta.env.BASE_URL}images/Temples/Murugan%20Temple.png)` }}
+                />
               </div>
               <div className="relative z-20 h-full p-8 flex flex-col justify-end text-white">
                 <div className="flex items-center gap-4 mb-2">

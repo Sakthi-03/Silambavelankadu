@@ -15,14 +15,14 @@ const Gallery = () => {
 
   const images = [
     {
-      url: '/images/Temples/Murugan Temple.png',
+      url: `${import.meta.env.BASE_URL}images/Temples/Murugan Temple.png`,
       title: 'முருகன் & விநாயகர் கோவில்',
       description: 'எங்கள் கிராமத்தின் முருகன் மற்றும் விநாயகர் கோவில்கள்',
       category: 'temples',
       // date: '2024-01-03'
     },
     {
-      url: '/images/Temples/Kaliamman.PNG',
+      url: `${import.meta.env.BASE_URL}images/Temples/Kaliamman.PNG`,
       title: 'அருள்மிகு ஆகாச காளியம்மன் கோவில்',
       description: 'எங்கள் கிராமத்தின் ஆகாச காளியம்மன் கோவில்',
       category: 'temples',
@@ -30,7 +30,7 @@ const Gallery = () => {
     },
 
     {
-      url: '/images/Nature/nature1.png',
+      url: `${import.meta.env.BASE_URL}images/Nature/nature1.png`,
       title: 'இயற்கை காட்சி',
       description: 'பறவைகள் பாடும் எங்கள் கிராமத்தின் இயற்கை அழகு',
       category: 'village',
@@ -38,28 +38,28 @@ const Gallery = () => {
     },
 
     {
-      url: '/images/Agri/paddy.png',
+      url: `${import.meta.env.BASE_URL}images/Agri/paddy.png`,
       title: 'நாற்று நடவு',
       description: 'மண் வாசனை கமழ, சேற்று வயலில் உழவர்கள் நெல் நாற்றுகளை நடும் காட்சி, விவசாயத்தின் உயிர் நாடியாய்.',
       category: 'agriculture',
       // date: '2024-01-10'
     },
     {
-      url: '/images/Agri/coconut.jpg',
+      url: `${import.meta.env.BASE_URL}images/Agri/coconut.jpg`,
       title: 'தென்னந்தோப்பு',
       description: 'பசுமையான தென்னைகள் நிறைந்த பண்ணை நிலம், அலைபாயும் தென்னை ஓலைகளுடன்.',
       category: 'agriculture',
       // date: '2024-01-10'
     },
     {
-      url: '/images/Temples/temple.png',
+      url: `${import.meta.env.BASE_URL}images/Temples/temple.png`,
       title: 'பழமையான கிராமத்து கோயில்',
       description: 'மரபுவழி கட்டிடக்கலையுடன் கூடிய எழில்மிகு கிராமத்துக் கோயில். இதன் சுற்றுப்புறம் அமைதியையும், ஆன்மிக உணர்வையும் ஊட்டுகிறது.',
       category: 'temples',
       // date: '2024-01-03'
     },
     {
-      url: '/images/Nature/pond1.png',
+      url: `${import.meta.env.BASE_URL}images/Nature/pond1.png`,
       title: 'மாலைக் குளத்து எழில்',
       description: 'மாலையில் கதிரவனின் செங்கதிர்கள் பட்டு, குளம் பொன்னிறமாய் மின்னும் இயற்கை எழிற்காட்சி.',
       category: 'village',
@@ -74,27 +74,27 @@ const Gallery = () => {
     },
 
     {
-      url: '/images/Nature/Kasankuttai.jpg',
+      url: `${import.meta.env.BASE_URL}images/Nature/Kasankuttai.jpg`,
       title: 'காசாங்குட்டை ஏரி',
       description: 'காசாங்குட்டை ஏரியானது எங்கள் கிராமத்தின் நீர் ஆதாரம், சுற்றிலும் பசுமையும் நீரின் அமைதியும் கொண்ட மனதிற்கு இனிமையான இடம்.',
       category: 'village',
       // date: '2024-01-01'
     },
     {
-      url: '/images/Temples/pond.jpg',
+      url: `${import.meta.env.BASE_URL}images/Temples/pond.jpg`,
       title: 'ஊரணி',
       description: 'எங்கள் ஊரின் பழமையான ஊரணி',
       category: 'temples',
       // date: '2023-12-28'
     },
     {
-      url: '/images/Agri/paddy1.jpg',
+      url: `${import.meta.env.BASE_URL}images/Agri/paddy1.jpg`,
       title: 'பசும் வயல்வெளி',
       description: 'நீல வானின் கீழ் இளம்பச்சை நெற்பயிர்கள் விரிந்திருக்கும் காட்சி. கிராமத்தின் வளம் மற்றும் உழவர்களின் உழைப்பை பிரதிபலிக்கும் ஆரோக்கியமான விவசாய நிலம்.',
       category: 'village',
     },
     {
-      url: '/images/Agri/groundnut.png',
+      url: `${import.meta.env.BASE_URL}images/Agri/groundnut.png`,
       title: 'வேர்க்கடலைத் தோட்டம்',
       description: 'மண்ணுக்குள் விளைந்து செழிக்கும் வேர்க்கடலை செடிகள் நிறைந்த விவசாய நிலம்.',
       category: 'agriculture',
