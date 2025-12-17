@@ -45,7 +45,7 @@ const Header = () => {
     <header
       className={`fixed w-full z-50 transition-all duration-500 border-b border-transparent ${useTransparent
         ? 'bg-transparent py-4'
-        : 'glass py-2 border-white/20'
+        : 'bg-white shadow-md py-2 border-gray-100'
         }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

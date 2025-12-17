@@ -14,7 +14,7 @@ const Footer = () => {
                 <MapPin className="w-6 h-6 text-white" />
               </div> */}
               <div className="w-15 h-15 rounded-full flex items-center justify-center overflow-hidden">
-                <img src="/images/logo.png" alt="Silambavelangadu Logo" className="w-full h-full object-cover" />
+                <img src="/Silambavelankadu/images/logo.png" alt="Silambavelangadu Logo" className="w-full h-full object-cover" />
               </div>
               <div>
                 <h3 className="text-xl font-bold">சிலம்பவேளாங்காடு</h3>
