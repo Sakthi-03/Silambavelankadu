@@ -26,14 +26,14 @@ const Home = () => {
         </div>
 
         {/* Hero Content */}
-        <div className="relative z-20 container mx-auto px-4 text-center mt-16 sm:mt-0">
+        <div className="relative z-20 container mx-auto px-4 text-center mt-16 sm:mt-32">
           <div className="inline-block mb-4 px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 animate-fade-in-up">
             <span className="text-emerald-300 font-medium text-sm tracking-wide">
               நம்ம ஊர் பெருமை
             </span>
           </div>
 
-          <h1 className="text-3xl min-[375px]:text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-tamil font-bold text-white mb-6 leading-relaxed py-4 animate-fade-in-up animation-delay-200 drop-shadow-xl text-center mx-auto w-full">
+          <h1 className="text-3xl min-[375px]:text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-tamil font-bold text-white mb-6 leading-relaxed py-4 animate-fade-in-up animation-delay-200 text-center mx-auto w-full">
             <span className="block text-emerald-100 sm:text-transparent sm:bg-clip-text sm:bg-gradient-to-r sm:from-emerald-200 sm:via-white sm:to-emerald-200 py-6 px-4 sm:px-8">
               சிலம்பவேளாங்காடு
             </span>
@@ -146,7 +146,7 @@ const Home = () => {
       </section>
 
       {/* Latest News Preview - Refined */}
-      <section className="py-20 px-4 bg-white">
+      {/* <section className="py-20 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
             <div>
@@ -163,7 +163,6 @@ const Home = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {/* News Card 1 */}
             <div className="group bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300">
               <div className="h-64 overflow-hidden relative">
                 <div className="absolute top-4 left-4 bg-white/90 backdrop-blur px-3 py-1 rounded-full text-xs font-bold text-primary-700 z-10">
@@ -188,7 +187,6 @@ const Home = () => {
               </div>
             </div>
 
-            {/* News Card 2 */}
             <div className="group bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300">
               <div className="h-64 overflow-hidden relative">
                 <div className="absolute top-4 left-4 bg-white/90 backdrop-blur px-3 py-1 rounded-full text-xs font-bold text-primary-700 z-10">
@@ -214,7 +212,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };
