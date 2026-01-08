@@ -1,6 +1,6 @@
 // import React from 'react';
 import { Link } from 'react-router-dom';
-import { MapPin, Phone, Mail, Facebook, Twitter, Instagram, Youtube } from 'lucide-react';
+import { MapPin, Phone, Mail, Facebook, Twitter, Instagram, Youtube, Users } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -135,16 +135,27 @@ const Footer = () => {
             <p className="text-gray-400 text-sm">
               © 2024 எங்கள் கிராமம். அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டுள்ளன.
             </p>
-            <div className="flex space-x-6 mt-4 md:mt-0">
-              <a href="#" className="text-gray-400 hover:text-emerald-400 text-sm transition-colors">
-                தனியுரிமை கொள்கை
-              </a>
-              <a href="#" className="text-gray-400 hover:text-emerald-400 text-sm transition-colors">
-                விதிமுறைகள்
-              </a>
-              <a href="#" className="text-gray-400 hover:text-emerald-400 text-sm transition-colors">
-                குக்கீ கொள்கை
-              </a>
+            <div className="flex flex-wrap items-center gap-6 mt-4 md:mt-0">
+              <div className="flex items-center gap-2 bg-gray-800/50 px-4 py-1.5 rounded-full border border-gray-700/50">
+                <Users className="w-4 h-4 text-emerald-400" />
+                <span className="text-gray-400 text-xs font-medium uppercase tracking-wider">வருகையாளர்கள்:</span>
+                <img
+                  src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2FSakthi-03.github.io%2FSilambavelankadu&labelColor=%23111827&countColor=%2310b981&style=flat-square"
+                  alt="Visitors"
+                  className="h-4"
+                />
+              </div>
+              {/* <div className="flex space-x-6">
+                <a href="#" className="text-gray-400 hover:text-emerald-400 text-sm transition-colors">
+                  தனியுரிமை கொள்கை
+                </a>
+                <a href="#" className="text-gray-400 hover:text-emerald-400 text-sm transition-colors">
+                  விதிமுறைகள்
+                </a>
+                <a href="#" className="text-gray-400 hover:text-emerald-400 text-sm transition-colors">
+                  குக்கீ கொள்கை
+                </a>
+              </div> */}
             </div>
           </div>
         </div>
