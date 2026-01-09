@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Sakthi-03.github.io/Silambavelankadu",
+  "homepage": "https://silambavelankadu.online",
   "name": "vite-react-typescript-starter",
   "private": true,
   "version": "0.0.0",
@@ -9,7 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && echo silambavelankadu.online > dist/CNAME",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
