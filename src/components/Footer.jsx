@@ -140,7 +140,7 @@ const Footer = () => {
                 <Users className="w-4 h-4 text-emerald-400" />
                 <span className="text-gray-400 text-xs font-medium uppercase tracking-wider">வருகையாளர்கள்:</span>
                 <img
-                  src="https://api.visitorbadge.io/api/combined?path=https%3A%2F%2FSakthi-03.github.io%2FSilambavelankadu&labelColor=%23111827&countColor=%2310b981&style=flat-square"
+                  src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2FSakthi-03.github.io%2FSilambavelankadu&labelColor=%23111827&countColor=%2310b981&style=flat-square"
                   alt="Visitors"
                   className="h-4"
                 />
