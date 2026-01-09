@@ -52,8 +52,8 @@ const Header = () => {
         <div className="flex justify-between items-center">
           {/* Logo Section */}
           <Link to="/" className="flex items-center space-x-3 group">
-            <div className="relative w-12 h-12 rounded-full overflow-hidden ring-2 ring-white/50 shadow-lg group-hover:scale-105 transition-transform duration-300">
-              <img src="/Silambavelankadu/images/logo.png" alt="Silambai Logo" className="w-full h-full object-cover" />
+            <div className="flex-shrink-0 relative w-12 h-12 md:w-14 md:h-14 rounded-full overflow-hidden ring-2 ring-white/50 shadow-lg group-hover:scale-110 transition-transform duration-300">
+              <img src="/images/logo.png" alt="Silambai Logo" className="w-full h-full object-cover" />
             </div>
             <div className={`transition-opacity duration-300 ${useTransparent ? 'opacity-100 text-white drop-shadow-md' : 'opacity-100'}`}>
               <h1 className={`text-xl font-bold font-tamil ${useTransparent ? 'text-white' : 'text-gray-900'}`}>

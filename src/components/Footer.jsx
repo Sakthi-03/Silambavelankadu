@@ -9,16 +9,13 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Village Info */}
           <div className="space-y-4">
-            <div className="flex items-center space-x-3">
-              {/* <div className="w-10 h-10 bg-gradient-to-br from-emerald-500 to-green-600 rounded-full flex items-center justify-center">
-                <MapPin className="w-6 h-6 text-white" />
-              </div> */}
-              <div className="w-16 h-16 rounded-full flex items-center justify-center overflow-hidden">
-                <img src="/Silambavelankadu/images/logo.png" alt="Silambavelangadu Logo" className="w-full h-full object-cover" />
+            <div className="flex items-center gap-3">
+              <div className="flex-shrink-0 w-12 h-12 md:w-14 md:h-14 rounded-full bg-white flex items-center justify-center overflow-hidden border-2 border-emerald-500 shadow-lg transition-transform duration-300 hover:scale-110">
+                <img src="/images/logo.png" alt="Silambavelangadu Logo" className="w-full h-full object-cover" />
               </div>
-              <div>
-                <h3 className="text-xl font-bold">சிலம்பவேளாங்காடு</h3>
-                <p className="text-gray-400 font-bold text-sm">நம்ம சிலம்பை</p>
+              <div className="flex flex-col justify-center">
+                <h3 className="text-base font-bold leading-tight">சிலம்பவேளாங்காடு</h3>
+                <p className="text-emerald-400 font-bold text-[10px] uppercase tracking-widest mt-0.5">நம்ம சிலம்பை</p>
               </div>
             </div>
             <p className="text-gray-300 leading-relaxed">

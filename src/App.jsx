@@ -13,7 +13,7 @@ import VideoGallery from './pages/VideoGallery';
 
 function App() {
   return (
-    <Router basename="/Silambavelankadu">
+    <Router>
       <div className="min-h-screen">
         <Header />
         <ScrollToTop />

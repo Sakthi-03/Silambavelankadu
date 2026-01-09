@@ -85,7 +85,7 @@ const About = () => {
                 {/* Temple Image */}
                 <div className="relative">
                   <img
-                    src="/Silambavelankadu/images/Temples/Murugan Temple.png"
+                    src="/images/Temples/Murugan Temple.png"
                     alt="கோவில்"
                     className="rounded-2xl shadow-lg w-full object-cover"
                   />
@@ -130,7 +130,7 @@ const About = () => {
                 {/* Temple Image */}
                 <div className="relative">
                   <img
-                    src="/Silambavelankadu/images/Temples/Kaliamman.PNG"
+                    src="/images/Temples/Kaliamman.PNG"
                     alt="கோவில்"
                     className="rounded-2xl shadow-lg w-full object-cover"
                   />
@@ -187,7 +187,7 @@ const About = () => {
                 {/*Image */}
                 <div className="relative">
                   <img
-                    src="/Silambavelankadu/images/Temples/BanquetHall.jpg"
+                    src="/images/Temples/BanquetHall.jpg"
                     alt="மண்டபம்"
                     className="rounded-2xl shadow-lg w-full object-cover"
                   />
@@ -241,7 +241,7 @@ const About = () => {
                 <div className="grid grid-cols-1 gap-6">
                   <div className="relative">
                     <img
-                      src="/Silambavelankadu/images/Nature/Kasankuttai.jpg"
+                      src="/images/Nature/Kasankuttai.jpg"
                       alt="ஏரி"
                       className="rounded-2xl shadow-lg w-full object-cover"
                     />
@@ -252,7 +252,7 @@ const About = () => {
 
                   <div className="relative">
                     <img
-                      src="/Silambavelankadu/images/Nature/Stone.jpg"
+                      src="/images/Nature/Stone.jpg"
                       alt="ஏரி"
                       className="rounded-2xl shadow-lg w-full max-h-[300px] object-cover"
                     />
@@ -315,7 +315,7 @@ const About = () => {
                 {/* Image Section */}
                 <div className="relative">
                   <img
-                    src="/Silambavelankadu/images/Agri/paddy.png"
+                    src="/images/Agri/paddy.png"
                     alt="பயிர்"
                     className="rounded-2xl shadow-lg w-full object-cover"
                   />
@@ -354,7 +354,7 @@ const About = () => {
                 {/* Image Section */}
                 <div className="relative">
                   <img
-                    src="/Silambavelankadu/images/Agri/coconut.jpg"
+                    src="/images/Agri/coconut.jpg"
                     alt="பயிர்"
                     className="rounded-2xl shadow-lg w-full object-cover"
                   />
